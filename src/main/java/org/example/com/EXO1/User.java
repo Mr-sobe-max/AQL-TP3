@@ -1,5 +1,6 @@
 package org.example.com.EXO1;
 
+/* EXO 01 */
 public class User {
     private long id;
     private String name;
