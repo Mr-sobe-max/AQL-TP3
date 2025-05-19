@@ -1,4 +1,4 @@
-# TP3 : Tests d'Intégration avec JUnit 5 et Mockito - Partie 1
+# TP3 : Tests d'Intégration avec JUnit 5 et Mockito - PARTIE 01
 
 Ce projet implémente le TP3 sur les tests d'intégration en Java avec JUnit 5 et Mockito, en explorant les interactions entre modules, bases de données et API.
 
@@ -74,7 +74,18 @@ Ce projet implémente le TP3 sur les tests d'intégration en Java avec JUnit 5 e
     - testGetProductApiFailure : Mock lève une ApiException pour une erreur d’API, vérifie l’exception.
     - Chaque test utilise verify(productApiClient).getProduct("123") pour confirmer que getProduct est appelé avec l’argument "123". Les scénarios testent la réussite, le format incompatible, et l’échec d’API.
 
+## TP3 - Tests d’intégration avec Docker et Testcontainers - PARTIE 02
 
+**Objectifs**
+Ce TP a pour but de se familiariser avec l’utilisation de Docker, Testcontainers et Spring Boot pour effectuer des tests d’intégration Java robustes et fiables. Vous allez apprendre à :
+  - Comprendre les bases de Docker et son utilisation pour exécuter des applications dans des conteneurs.
+  - Utiliser Testcontainers pour effectuer des tests d’intégration dans des conteneurs Docker.
+  - Effectuer des tests sur une application Spring Boot qui interagit avec une base de données MySQL.
+  - Analyser et réécrire des tests d’intégration en utilisant Testcontainers pour améliorer leur fiabilité.
+    
+**Exercice 1**: Maîtriser TestContainers Objectifs de l'exercice Compiler des parties de l'application en utilisant Docker pour éviter le recours aux mocks Créer et publier des images Docker ou des conteneurs pour les services nécessaires aux tests. Utiliser Testcontainers pour simplifier l'exécution des tests d'intégration dans un environnement isolé.
+
+**Exercice 2**: Tests d'intégration avec Testcontainers pour une application de gestion de tâches Objectifs de l'exercice Cloner ou télécharger un projet d'application de gestion de tâches. Réécrire les tests d'intégration existants en utilisant Testcontainers et Docker. Exécuter et vérifier le bon fonctionnement des tests d'intégration réécrits.
 
 ## Auteurs:
 [BOUKHIBAR Mounir]
