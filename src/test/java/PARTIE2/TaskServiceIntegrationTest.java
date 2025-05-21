@@ -1,5 +1,6 @@
 package PARTIE2;
 
+/* LES TESTS D'INTEGRATION */
 import org.example.com.PARTIE2.Task;
 import org.example.com.PARTIE2.TaskService;
 import org.junit.jupiter.api.Test;

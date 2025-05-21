@@ -1,5 +1,6 @@
 package org.example.com.PARTIE2;
 
+/* INTEGRATION DU TASK MANAGER */
 import javax.persistence.*;
 
 @Entity
